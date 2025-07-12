@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>YANZZ HOSTING</title>
+  <link rel="icon" href="https://files.catbox.moe/jqzse8.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    video.bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    marquee {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      position: relative;
+      z-index: 2;
+    }
+
+    header {
+      background: #000000cc;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffcc00;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .product {
+      background: #ffffff15;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      background: #ffffff30;
+    }
+
+    .product img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .product h2 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+
+    footer {
+      background: #000;
+      padding: 1rem;
+      text-align: center;
+      color: #aaa;
+      margin-top: 40px;
+    }
+
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+
+    form button {
+      background: #ff9800;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    .wa-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .wa-float i {
+      margin-top: 16px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      header img {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<a href="https://instagram.com/yanzzhosting" class="ig-float" target="_blank" title="Instagram">
+  <i class="fab fa-instagram"></i>
+</a>
+
+<style>
+  .ig-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #E1306C;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
+  .ig-float i {
+    margin-top: 16px;
+  }
+</style>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="https://files.catbox.moe/zliqz0.mp4" type="video/mp4">
+  </video>
+
+  <!-- Marquee -->
+  <marquee>HAI SELAMAT DATANG DI MARKETPLACE YANZZ HOSTING SELAMAT BERBELANJA 😁😁</marquee>
+
+  <!-- Header -->
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="https://files.catbox.moe/jqzse8.jpg" alt="YANZZ Logo">
+      <h1>YANZZ HOSTING</h1>
+    </div>
+    <nav>
+      <a href="#produk">Produk</a>
+      <a href="#konfirmasi">Konfirmasi</a>
+    </nav>
+  </header>
+
+  <!-- Produk -->
+  <div class="container" id="produk">
+    <h2>Produk Tersedia</h2>
+
+    <!-- Semua produk kamu tetap di sini -->
+    <!-- (Paste kembali bagian produk kamu dari sebelumnya di sini) -->
+    <!-- Contoh: -->
+      <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="PT PRIB PANEL">
+    <h2>PT PRIB PANEL – 20K</h2>
+    <ul>
+      <li>BISA OPEN PT PANEL</li>
+      <li>BISA OPEN OWN PANEL</li>
+      <li>BISA OPEN ADP</li>
+      <li>BISA OPEN RESELER</li>
+      <li>BISA JUAL PANEL</li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="PT BIASA PANEL">
+    <h2>PT BIASA PANEL – 15K</h2>
+    <ul>
+      <li>BISA OPEN OWN PANEL</li>
+      <li>BISA OPEN ADP</li>
+      <li>BISA OPEN RESELER</li>
+      <li>BISA JUAL PANEL</li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="OWN PANEL">
+    <h2>OWN PANEL – 13K</h2>
+    <ul>
+      <li>BISA OPEN ADP</li>
+      <li>BISA OPEN RESELER</li>
+      <li>BISA JUAL PANEL</li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="ADP">
+    <h2>ADP – 8K</h2>
+    <ul>
+      <li>BISA OPEN RESELER</li>
+      <li>BISA JUAL PANEL</li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="Reseller">
+    <h2>RESELLER – 4K</h2>
+    <ul>
+      <li>BISA JUAL PANEL</li>
+      <li>BISA OPEN MURBUG</li>
+      <li>BISA OPEN JASA PUSHKONTAK</li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="List Panel">
+    <h2>LIST PANEL</h2>
+    <ul>
+    <li>1GB: 1.000</li>
+    <li>2GB: 2.000</li>
+    <li>3GB: 3.000</li>
+    <li>4GB: 4.000</li>
+    <li>5GB: 4.500</li>
+    <li>6GB: 5.000</li>
+    <li>7GB: 5.500</li>
+    <li>8GB: 6.000</li>
+    <li>9GB: 6.500</li>
+    <li>10GB: 7.000</li>
+    <li>UNLI: 8.000</li>
+    </ul>
+  </div>
+  
+    <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="List apk kebutuhan jb">
+    <h2>1 APK 1K</h2>
+    <ul>
+      <li>PIXELAB MOD1L</li>
+      <li>PIXELAB MOD2</li>
+      <li>FAYU PEDIA</li>
+      <li>SV ITOMATIS WHATSAPP</li>
+      <li>HYRIZ</li>
+    </ul>
+  </div>
+  
+    <div class="product">
+    <img src="https://files.catbox.moe/ooq0kt.jpg" alt="LOGO">
+    <h2>LOGO TESTIMONI 2K</h2>
+    <ul>
+      <li>LOGO DI ATAS</li>
+    </ul>
+  </div>
+  
+      <div class="product">
+    <img src="https://files.catbox.moe/8hgcdm.jpeg" alt="LOGO">
+    <h2>LOGO1 2K</h2>
+    <ul>
+      <li>LOGO DI ATAS</li>
+    </ul>
+  </div>
+  
+      <div class="product">
+    <img src="https://files.catbox.moe/7h79jd.jpg" alt="LOGO">
+    <h2>LOGO2 2K</h2>
+    <ul>
+      <li>LOGO DI ATAS</li>
+    </ul>
+  </div>
+  
+  <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="LOGO">
+    <h2>LOGO3 2K</h2>
+    <ul>
+      <li>LOGO DI ATAS</li>
+    </ul>
+  </div>
+  
+     <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="BUG TOLS">
+    <h2>OWNER BUG 8K</h2>
+    <ul>
+      <li>BISA OPEN MURBUG</li>
+      <li>BISA OPEN JASBUG</li>
+      <li>BISA BUG SEPUASNYA</li>
+    </ul>
+  </div>
+  
+       <div class="product">
+    <img src="https://files.catbox.moe/eygtxe.jpg" alt="BUG TOLS">
+    <h2>MURBUG 5K</h2>
+    <ul>
+      <li>BISA OPEN JASBUG</li>
+      <li>BISA BUG SEPUASNYA</li>
+    </ul>
+  </div>
+
+<div class="product">
+  <img src="https://files.catbox.moe/eygtxe.jpg" alt="Bug Tools">
+  <h2>JASBUG 1K</h2>
+  <ul>
+    <li>MENGHITAMKAN ATAU DELAY ATAU FC</li>
+  </ul>
+</div>
+
+    <!-- (Lanjutkan semua produk lainnya dari versi sebelumnya) -->
+  </div>
+
+  <!-- Konfirmasi -->
+  <div class="container" id="konfirmasi">
+    <h2>Konfirmasi Pembayaran</h2>
+    <p>Transfer ke rekening <span class="highlight">DANA: 085712594787</span></p>
+    <p>Setelah transfer, isi form ini. Admin akan mengirim akses ke email kamu dan jangan sampe email atau nonor WhatsApp anda salah karena bisa terjadi kesalahan salah kirim jadi telitilah saat mengisi.</p>
+
+<form action="https://formsubmit.co/yanzzgg749@gmail.com" method="POST">
+  <input type="hidden" name="_cc" value="yanzzbuyer@gmail.com">
+  <input type="hidden" name="_subject" value="Konfirmasi Transfer YANZZ HOSTING">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yanzzhosting454.github.io/terima-kasih.html">
+  <input type="text" name="_honey" style="display:none">
+
+  <input type="text" name="Nama" placeholder="Nama Kamu" required>
+  <input type="text" name="Nomor_WA" placeholder="Nomor WhatsApp Kamu" required>
+  <input type="text" name="Nomor_dana" placeholder="Nomor rekening Kamu" required>
+  <input type="email" name="Email" placeholder="Email Kamu" required>
+
+  <textarea name="Pesanan" placeholder="Contoh: Saya pesan PT PRIB PANEL" required></textarea>
+  <textarea name="Catatan" placeholder="Pesan kamu untuk admin (Contoh: Sudah transfer jam 13.45 dan berikan pesan)" required></textarea>
+
+  <button type="submit">Saya Sudah Transfer</button>
+</form>
+
+    <p><strong>WAJIB!</strong> KALO ADA MASALAH BISA HUBUNGI NOMOR WHATSAPP YANZZ HOSTING <span class="highlight">: </span>😁</p>
+  </div>
+
+  <!-- WA Floating Button -->
+  <a href="https://wa.me/6283824724985" class="wa-float" target="_blank" title="Chat Admin">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 YANZZ HOSTING | YANZZ JB.
+  </footer>
+
+</body>
+</html>
